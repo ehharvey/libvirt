@@ -1,0 +1,6 @@
+---
+libvirt_packages:
+  libvirt
+  qemu-kvm
+  qemu-img
+  qemu-kvm-tools

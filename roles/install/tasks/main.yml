@@ -1,0 +1,6 @@
+---
+- name: Install packages
+  ansible.builtin.packages:
+    name: "{{ item }}"
+    state: present
+  loop: "{{ libvirt_packages }}"
